@@ -1,0 +1,22 @@
+{% if show %}
+<h1> Data found </h1>
+
+
+{% for obj in show %}
+{{obj}}  {{obj.email}} <br>
+
+
+
+{% endfor %}
+
+
+{% else %}
+
+
+<h> data not found  </h>
+
+
+
+
+{% endif %}
+

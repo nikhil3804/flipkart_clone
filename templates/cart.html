@@ -1,0 +1,8 @@
+{% if cart %}
+<h1> Your selected orders </h1>
+{% for obj in cart %}
+{{obj.mobile}}
+{% endfor %}
+{% else %}
+<h1> data not found </h1> 
+{% endif %}
